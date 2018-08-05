@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Snakey</title>
+
+	<style>
+
+	    body{
+		    background-image: url('wall.png');
+		    margin: 0%;
+	    }
+		canvas{
+			display: block;
+			margin: 100px auto;
+		}
+		#restart{
+			display: none;
+			cursor: pointer;
+			position: absolute;
+			height: 10%;
+			width: 100%;
+			font-size: 40px;
+            background: linear-gradient(to left, #24FE41, #FDFC47);
+            border:none;
+		}
+	</style>
+</head>
+<body>
+<canvas id="snake" width="608" height="608"></canvas>
+<button id="restart" onclick="restart()">Hissssss...play again!</button>
+<script type="text/javascript" src="script.js"></script>	
+</body>
+</html>
